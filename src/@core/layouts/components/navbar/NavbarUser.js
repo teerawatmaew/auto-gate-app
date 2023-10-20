@@ -43,7 +43,7 @@ const NavbarUser = props => {
                 </NavItem>
             </div> */}
             <div className='alert-body inline-block'>
-                <Avatar img={POCLogo} /><span style={{ textDecoration: 'underline' }} className='ml-1 font-weight-bolder text-primary'>ระบบตรวจสอบตราประทับ</span>
+                <Avatar img={POCLogo} /><span style={{ textDecoration: 'underline' }} className='ml-1 font-weight-bolder text-primary'>ระบบตรวจสอบตราประทับอนุญาตให้พำนักในราชอาณาจักร</span>
             </div>
             <ul className='nav navbar-nav align-items-center ml-auto'>
                 <UserDropdown />

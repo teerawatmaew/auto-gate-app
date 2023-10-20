@@ -122,6 +122,7 @@ const VerticalLayout = props => {
     <div
       className={classnames(
         `wrapper vertical-layout ${navbarWrapperClasses[navbarType] || 'navbar-floating'} ${
+        //`wrapper vertical-layout navbar-hidden ${
           footerClasses[footerType] || 'footer-static'
         }`,
         {
